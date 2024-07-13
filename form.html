@@ -17,11 +17,12 @@
         .userform{
           border: 2px solid black;
           width: 40%;
+          
           padding: 15px;
           margin: auto;
           border-radius: 10px;
           margin-top: 50px;
-          box-shadow: 4px 3px 30px red ;
+          /* box-shadow: 4px 3px 30px red ; */
           border-radius: 25px;
         }
         input{
@@ -29,12 +30,14 @@
             margin: 5px 0px;
             padding: 5px;
             margin: 8px 0px;
-            border-radius: 20px;
-            box-shadow: 3px 2px 3px aqua;
+            border-radius: px;
+            /* box-shadow: 3px 2px 3px aqua; */
+            outline: none;
                    
         }
         label{
             font-size: 15px;
+            
 
         }
 
@@ -47,13 +50,14 @@
         
         #btn{
             color: black;
-            background-color: aqua;
+            background-color: rgb(226, 35, 229);
             border: none;
             padding: 10px;
             font-weight:  bold;
         }
         #btn:hover{
             background-color: red;
+            letter-spacing: 3px;
             cursor: pointer;
         }
 
@@ -72,15 +76,14 @@
                 <input type="email" placeholder="enter your email">
             </div>
             <div>
-                <label for="">phoneno</label>
+                <label  for="">PhoneNo.</label>
                 <input type="number" placeholder="enter your phone no">
             </div>
             <div>
-                <label for="">password</label>
+                <label for="">Password</label>
                 <input type="password" placeholder="enter your password">
             </div>
-            <div >
-                   
+            <div >                   
                     <input  type="button" value="sumbit" name="" id="btn">
             </div>
         </form>
