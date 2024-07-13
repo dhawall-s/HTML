@@ -19,28 +19,32 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            /* justify-content: space-between; */
+            justify-content: space-between;
             /* justify-content: space-evenly; */
             /* justify-content: space-around; */
 
 
-            /* align-items: center; */
+            align-items: center;
             /* align-items: end; */
             background-color: yellow;
 
         }
 
         .box{
-            height: 300px;
-            width: 25%;
+            height: 200px;
+            width:  150px;
             background-color: aqua;
             border: 2px solid black;
-            display: flex;
+            flex-grow: 1;    
         }
     </style>
 </head>
 <body>
   <div class="container">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+  <div class="box">4</div>
   <div class="box">1</div>
   <div class="box">2</div>
   <div class="box">3</div>
