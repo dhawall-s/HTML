@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATIONS</title>
+    <style>
+        .first {
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 50px;
+            background-color: yellow;
+            animation-name: box1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            position: absolute;
+            
+        }
+
+        @keyframes box1 {
+            from {
+                width: 0px;
+                height: 0px;
+                left: 0px;
+                top: 0px;
+            }
+
+            to {
+                width: 500px;
+                height: 500px;
+                border-radius: 250px;   
+                left: 575px;
+                top: 300px;
+                background-color: green;
+            }
+        }
+
+        .second {
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            border-radius: 50px;
+            background-color: yellow;
+            animation-name: box2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            position: absolute; 
+          
+            
+ 
+        }
+
+        @keyframes box2 {
+            from {
+                width: 0px;
+                height: 0px;
+                right: 0px;
+                top: 0px;
+            }
+
+            to {
+                width: 500px;
+                height: 500px;
+                border-radius: 250px;
+                right: 575px;
+                top: 300px;
+                background-color: red;               
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="first"></div>
+    <div class="second"></div>
+</body>
+</html>

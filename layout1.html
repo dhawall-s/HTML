@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html , body{
+            height: 100%;
+            width: 100%;
+        }
+        .container{
+            text-align: center;
+        }
+        .head{
+            height: 20vh;
+            width: 100%;
+            background-color: red;
+            /* text-align: center; */
+            font-size: 100px;            
+
+        }
+        .main{
+            height: 40vh;
+            width: 100%;
+            background-color: aqua;
+            display: flex;
+        }
+        .article{
+            height:100% ;
+            width: 50%;
+            background-color:rgb(255, 8, 251);
+            font-size: 30px;
+            /* text-align: center; */
+        }
+        .text{
+            text-align: center;
+            font-size: 50px;
+            height: 100%;
+            width: 50%;
+            display: block;
+            
+        }
+
+        .t1{
+           
+            height: 50%;
+            width: 100%;
+            background-color: chartreuse;
+        }
+
+        .t2{
+            height: 50%;
+            width: 100%;
+            background-color: cornflowerblue;
+            display: flex;
+            
+
+        }
+        .t22{
+            height: 100%;
+            width: 50%;
+            background-color: floralwhite;
+        }
+        
+        .t23{
+            height: 100%;
+            width: 50%;
+            background-color: greenyellow;
+        }
+        .ma{
+            background-color: black;
+            height:25vh ;
+            width: 100%;
+            color: aqua;
+            /* text-align: center; */
+            font-size: 50px;
+        }
+        .footer{
+            height: 15vh;
+            width: 100%;
+            background-color: green;
+            font-size: 50px;
+            
+
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <header class="head">
+            THIS IS A HEADER
+        </header>
+        
+        <main class="main">
+            <div class="article">
+               THIS IS AN ARTICLE SECTION
+            </div>
+            <div class="text">
+                <div class="t1">text1</div>
+                <div class="t2">
+                    <div class="t22">
+                       hello
+                    </div>
+                    <div class="t23">
+                        bye
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </main>
+        <main class="ma">
+       THIS IS A MAIN SECTION
+        </main>
+
+        <footer class="footer">
+          THIS IS A FOOTER SECTION
+        </footer>
+
+
+    </div>
+</body>
+</html>

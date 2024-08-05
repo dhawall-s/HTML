@@ -1,0 +1,54 @@
+.hero {
+    /* width: 100%; */
+}
+
+.hero_image {
+    position: relative;
+}
+
+.image_text {
+    position: absolute;
+    top: 40%;
+    color: black;
+    left: 200px;
+}
+
+.image_text h1 {
+    color: #e53637;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 28px;
+}
+
+.image_text h5 {
+    color: #111111;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 30px;
+}
+
+.banner img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.banner_item_text a {
+    display: inline-block;
+    color: #111111;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 3px 0;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
